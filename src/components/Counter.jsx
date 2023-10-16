@@ -19,7 +19,7 @@ function Counter() {
           <button onClick={()=>dispatch(increment())} className="btn btn-success">Increment</button>
 
         </div>
-        <button onClick={()=>dispatch(incrementByAmount())} className="btn btn-primary mt-4">Increment By Amount</button>
+        <button onClick={()=>dispatch(incrementByAmount(5))} className="btn btn-primary mt-4">Increment By Amount</button>
 
       </div>
     </div>
